@@ -1,0 +1,43 @@
+body{
+text-align: center;
+}
+#perfil{
+width: 90% ; 
+border-radius: 15px;   
+}
+#nombre{
+font-size: 60px;
+}
+#welcome{
+background: linear-gradient(90deg, rgb(171, 6, 3) 26%, rgba(245,245,245,1) 53%, rgba(79,5,232,1) 79%);
+z-index:9;
+}
+.linea{
+background-color: rgb(37, 91, 176);
+height: 5px;
+width: 70%;
+margin: 5px auto;
+}
+h1{
+    font-family: 'Marvel', sans-serif;    
+}
+.menu{
+list-style: none;
+font-family: 'Marvel', sans-serif;
+position: fixed;
+margin-top: 0px;
+z-index:10;
+width: 100% ;
+background: rgb(255, 255, 255);
+}
+.links{
+display: inline;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+}
+a{
+text-decoration: none;
+color: black;
+}
